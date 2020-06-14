@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Swiss red:    #D52B1E -->
+<!-- Austrian red: #ED2939 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600">
+<!-- Austria -->
+<rect fill="#ED2939" y="0" width="900" height="600"/>
+<rect fill="#fff" y="200" width="900" height="200"/>
+
+<!-- Switzerland -->
+<rect fill="#ED2939" height="300" width="300" x="0" y="0"/>
+<rect fill="#fff" height="56.25" width="187.5" x="56.25" y="121.875"/>
+<rect fill="#fff" height="187.5" width="56.25" x="121.875" y="56.25"/>
+
+<!-- USA red:      #B22234 -->
+<!-- USA blue:     #3C3B6E -->
+</svg>

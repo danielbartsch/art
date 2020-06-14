@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	 xmlns:xlink="http://www.w3.org/1999/xlink"
+	 version="1.1"
+	 width="424px"
+	 height="584px">
+	<!--<image xlink:href="measures.png" x="-40" y="-15" width="424px" height="584px"/>-->
+	<!-- tick -->
+	<path d="M 321 1
+	         Q 160 240 54 126
+			 Q 160 150 321 1"
+	      fill="black"/>
+	<!-- J -->
+	<circle cx="49" cy="246" r="31" fill="black"/>
+	<path d="M 90 180 
+			 L 133 180
+	         L 133 491
+			 L 90 491
+			 Q 0 560 80 376
+			 Q 115 303 1 305
+			 Q 70 303 36 376
+			 Q -67 640 133 491
+			 L 90 491"
+		  fill="black"/>
+	<!-- I -->
+	<path d="M 143 180
+			 L 143 339
+			 L 187 339
+			 L 187 180"
+		  fill="black"/>
+	<!-- N -->
+	<path d="M 197 180
+			 L 240 180
+			 L 240 339
+			 L 197 339
+			 M 197 215
+			 Q 400 105 294 339
+			 Q 255 415 330 411
+			 Q 210 415 250 339
+			 Q 350 130 197 232"
+		  fill="black"/>
+</svg>

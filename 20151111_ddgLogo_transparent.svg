@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	version="1.1" width="600px" height="600px" viewBox="-40 -40 720 720">
+
+	<!--
+	aufwendiges rechtes D (transparent)
+
+	points: erste Zeile: Grund-D
+		   zweite Zeile: Loch im Senkrechten Strich des Ds
+	       dritte Zeile: Loch des Ds
+    -->
+	<polyline points="315 -27.3 645 138.3 645 481.6 315 647.1 315 -27.3
+					  348 68.2 348 551.9 358 546.8 358 73.1 348 68.2
+					  390 89.3 390 530.8 575 438.2 575 181.6 390 89.3 348 68.2"
+			  fill="black"
+			  fill-rule="evenodd"/>
+
+	<!--
+	aufwendiges linkes D (transparent)
+
+	points: erste Zeile: Grund-D
+		   zweite Zeile: Loch im Senkrechten Strich des Ds
+	       dritte Zeile: Loch des Ds
+    -->
+	<polyline points="305 -27.3 -25 138.3 -25 481.6 305 647.1 305 -27.3
+					  272 68.2 272 551.9 262 546.8 262 73.1 272 68.2
+					  230 89.3 230 530.8 45 438.2 45 181.6 230 89.3 272 68.2"
+			  fill="black"
+			  fill-rule="evenodd"/>
+
+	<!-- linkes Teil des Gs -->
+	<polyline points="220 165.8
+					  220 244.2
+					  195 256.7
+					  195 363.3
+					  220 375.8
+					  220 454.2
+					  125 406.7
+					  125 213.4"
+			  fill="black"/>
+
+	<!-- rechts-oben Teil des Gs -->
+	<polyline points="400 165.8
+					  400 244.2
+					  425 256.6
+					  495 213.2"
+			  fill="black"/>
+
+	<!-- rest-rechts Teil des Gs -->
+	<polyline points="400 275
+					  400 345
+					  425 345
+					  425 363.3
+					  400 375.8
+					  400 454.2
+					  495 406.7
+					  495 275"
+			  fill="black"/>
+
+	<!--
+	PS.: Georgi, deine Trennlinien aus unsichtbaren
+	weißen Strichen haben mir den letzten Nerv
+	gekostet. Bei fast jedem Punkt hab ich mich
+	herumspielen müssen, um jeden einigermaßen
+	korrekt zu treffen. Die Striche haben die
+	Schätzungen komplett über den Haufen geworfen,
+	weil ich den korrekten Standort durch die
+	Überdeckung deiner Striche nichtmehr sah. Tja,
+	nach 60% Laptop Akku verbrauchen, hab ich jedoch
+	diese unglaublich mühsame und langwierige
+	Leistung vollbracht. Das Logo ist nun Transparent.
+
+	Ich habe unter meiner Programmierung hier, dein
+	Logo verwendet, sodass ich sozusagen abpausen konnte.
+
+
+	PPS.: FUUUUUCKKK!!!
+	Gerade mein Logo direkt mit deinem verglichen, so
+	beim Browser hin-und-her-tabben. Wiedermal hat ein
+	weißer Strich meine Arbeit erschwert! Daher muss
+	ich das nun anpassen! Aaaarrgh!!!
+
+	PPPS.: Alles nicht so schlimm,
+	ich hab für das ausbessern nur 2 Minuten gebraucht.
+	Hihi.
+	DONE!!!!
+	-->
+</svg>

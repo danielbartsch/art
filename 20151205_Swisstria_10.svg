@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Swiss red:    #D52B1E -->
+<!-- Austrian red: #ed2939 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600">
+<!-- Austria -->
+<rect fill="#ed2939" width="900" height="600"/>
+<!-- Switzerland -->
+<path d="M 450 300 150 0 750 0" fill="#fff" />
+<path d="M 450 300 150 600 750 600" fill="#fff" />
+
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1200">
+  <rect height="1200" width="1200" fill="#BAF" />
+  
+  <g>
+    <!--
+    <circle cx="600" cy="600" r="500" stroke-width="2" fill="none" stroke="black"/>
+	<circle cx="600" cy="600" r="191" stroke-width="0.764" fill="none" stroke="black"/>
+	<circle cx="600" cy="600" r="72.962" stroke-width="0.291848" fill="none" stroke="black"/>
+	<circle cx="600" cy="600" r="27.871484" stroke-width="0.111485936" fill="none" stroke="black"/>
+	<circle cx="600" cy="600" r="10.646906888" stroke-width="0.042587627552" fill="none" stroke="black"/>
+	<circle cx="600" cy="600" r="4.067118431216" stroke-width="0.016268473724864" fill="none" stroke="black"/>
+	<circle cx="600" cy="600" r="1.553639240724512" stroke-width="0.006214556962898048" fill="none" stroke="black"/>
+	-->
+	<!-- Radius 500
+	     90 degrees:        600, 100
+	    162 degrees: 1075.52826, 445.49150
+		234 degrees:  893.89263,1004.50850
+		306 degrees:  306.10737,1004.50850
+		 18 degrees:  124.47174, 445.49150
+    -->
+	
+	<!-- Radius 191
+	     270 degrees:       600, 791
+	     342 degrees: 418.34821, 659.02225
+	      54 degrees: 487.73302, 445.47775
+	     126 degrees: 712.26698, 445.47775
+	     198 degrees: 781.65179, 659.02225
+	-->
+	
+	<!-- star 500 -->
+	<path d="M 600 100 L 893.89263 1004.50850 L 124.47174 445.49150 L 1075.52826 445.49150 L 306.10737 1004.50850z" stroke="black" fill="none" stroke-width="1" />
+	
+	<!-- star 191 -->
+	<!--<path d="M 600 791 L 487.73302 445.47775 L 781.65179 659.02225 L 418.34821 659.02225 L 712.26698 445.47775z" stroke="black" fill="none" stroke-width="1" />-->
+	
+	<!-- star segments -->
+	<path d="M 712.26698 445.47775 L 893.89263 1004.50850 L 600 791" stroke="white" fill="none" stroke-width="20" />
+	<path d="M 712.26698 445.47775 L 893.89263 1004.50850 L 600 791" stroke="rgb(140,255,255)" fill="none" stroke-width="10" />
+	
+	<path d="M 487.73302 445.47775 L 1075.52826 445.49150 L 781.65179 659.02225" stroke="white" fill="none" stroke-width="20" />
+	<path d="M 487.73302 445.47775 L 1075.52826 445.49150 L 781.65179 659.02225" stroke="rgb(140,140,255)" fill="none" stroke-width="10" />
+	
+	<path d="M 712.26698 445.47775 L 600 100 L 418.34821 659.02225" stroke="white" fill="none" stroke-width="20" />
+	<path d="M 712.26698 445.47775 L 600 100 L 418.34821 659.02225" stroke="rgb(255,140,255)" fill="none" stroke-width="10" />
+	
+	<path d="M 487.73302 445.47775 L 124.47174 445.49150 L 600 791" stroke="white" fill="none" stroke-width="20" />
+	<path d="M 487.73302 445.47775 L 124.47174 445.49150 L 600 791" stroke="rgb(255,140,140)" fill="none" stroke-width="10" />
+	
+	<path d="M 418.34821 659.02225 L 306.10737 1004.50850 L 781.65179 659.02225" stroke="white" fill="none" stroke-width="20" />
+	<path d="M 418.34821 659.02225 L 306.10737 1004.50850 L 781.65179 659.02225" stroke="rgb(255,255,140)" fill="none" stroke-width="10" />
+	
+	<!-- five edge shape 500 -->
+	<!--<path d="M 600 100 L 1075.52826 445.49150 L 893.89263 1004.50850 L 306.10737 1004.50850 L 124.47174 445.49150z" stroke="black" fill="none" stroke-width="1" />-->
+  </g>
+</svg>

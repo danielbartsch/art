@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000">
+  <rect height="1000" width="1000" fill="#BAF" />
+  
+  <g transform="scale(3 3) translate(-333.33333 -360)">
+    <circle cx="500" cy="500" r="125" />
+    <circle cx="500" cy="500" r="105" fill="#BAF"/>
+  
+    <line x1="500" y1="500" x2="629.4095" y2="17.0371" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="370.5905" y2="17.0371" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="629.4095" y2="982.9629" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="370.5905" y2="982.9629" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="353.5534" y2="353.5534" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="353.5534" y2="646.4466" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="646.4466" y2="646.4466" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="646.4466" y2="353.5534" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="17.0371" y2="629.4095" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="17.0371" y2="370.5905" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="982.9629" y2="370.5905" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="982.9629" y2="629.4095" stroke-width="5" stroke="#BAF"/>
+    <circle cx="500" cy="500" r="100" />
+    <circle cx="500" cy="500" r="80" fill="#BAF"/>
+  
+    <line x1="500" y1="500" x2="250" y2="66.9873" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="750" y2="66.9873" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="750" y2="500" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="250" y2="500" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="250" y2="933.0127" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="750" y2="933.0127" stroke-width="5" stroke="#BAF"/>
+    <circle cx="500" cy="500" r="75" />
+    <circle cx="500" cy="500" r="55" fill="#BAF"/>
+  
+    <line x1="500" y1="500" x2="66.9873" y2="250" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="933.0127" y2="250" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="500" y2="1000" stroke-width="5" stroke="#BAF"/>
+    <circle cx="500" cy="500" r="50" />
+    <circle cx="500" cy="500" r="30" fill="#BAF"/>
+  
+    <line x1="500" y1="500" x2="500" y2="0" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="66.9873" y2="750" stroke-width="5" stroke="#BAF"/>
+    <line x1="500" y1="500" x2="933.0127" y2="750" stroke-width="5" stroke="#BAF"/>
+    <circle cx="500" cy="500" r="25" />
+  </g>
+</svg>

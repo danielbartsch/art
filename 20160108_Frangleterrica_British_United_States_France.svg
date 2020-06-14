@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1235" height="650" viewBox="0 0 7410 3900">
+<rect width="7200" height="3900" fill="#b22234"/>
+<g id="UK" transform="scale(10)" x="2964">
+	<clipPath id="t">
+		<path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/>
+	</clipPath>
+	<path d="M0,0 v30 h60 v-30 z" fill="#00247d"/>
+	<path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>
+	<path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#t)" stroke="#cf142b" stroke-width="4"/>
+	<path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/>
+	<path d="M30,0 v30 M0,15 h60" stroke="#cf142b" stroke-width="6"/>
+</g>
+<g id="UKrow">
+	<use xlink:href="#UK" x="2400"/>
+	<use xlink:href="#UK" x="1800"/>
+	<use xlink:href="#UK" x="1200"/>
+	<use xlink:href="#UK" x="600"/>
+	<use xlink:href="#UK" x="0"/>
+	<g id="UKupRow">
+		<use xlink:href="#UK" x="6600"/>
+		<use xlink:href="#UK" x="6000"/>
+		<use xlink:href="#UK" x="5400"/>
+		<use xlink:href="#UK" x="4800"/>
+		<use xlink:href="#UK" x="4200"/>
+		<use xlink:href="#UK" x="3600"/>
+		<use xlink:href="#UK" x="3000"/>
+	</g>
+</g>
+<use xlink:href="#UKrow" y="2400"/>
+<use xlink:href="#UKrow" y="3000"/>
+<use xlink:href="#UKrow" y="3600"/>
+<use xlink:href="#UKupRow" y="0" />
+<use xlink:href="#UKupRow" y="600" />
+<use xlink:href="#UKupRow" y="1200" />
+<use xlink:href="#UKupRow" y="1800" />
+<path d="M0,450H7200m0,600H0m0,600H7200m0,600H0m0,600H7200m0,600H0" stroke="#fff" stroke-width="300"/>
+
+<g id="sLeftBlack" transform="scale(0.472) translate(272 170)">
+	<path fill="black" d="M251.24082,16.036156L307.95737,196.48105L497.09706,194.66118L343.01014,304.36235L403.18833,483.68252L251.24082,371.03668L99.293295,483.68252L159.4715,304.36235L5.3845769,194.66117L194.52426,196.48105L251.24082,16.036156zM5.5468156,194.77939L343.01669,304.36021M307.92135,196.27899L99.678654,483.25326M159.4435,304.29471L496.32824,194.81815M251.2413,16.712852L251.2413,371.05674M194.4167,196.35542L402.77356,483.16866"/>
+    <path fill="white" d="M251.24082,16.036156L308.09785,196.09234L495.97823,195.05775L343.57406,304.66969L402.82414,482.09902L251.35462,371.19911L251.12333,17.218868"/>
+</g>
+
+<g id="sRightBlack" transform="scale(0.472) translate(272 170)">
+	<path fill="white" d="M251.24082,16.036156L307.95737,196.48105L497.09706,194.66118L343.01014,304.36235L403.18833,483.68252L251.24082,371.03668L99.293295,483.68252L159.4715,304.36235L5.3845769,194.66117L194.52426,196.48105L251.24082,16.036156zM5.5468156,194.77939L343.01669,304.36021M307.92135,196.27899L99.678654,483.25326M159.4435,304.29471L496.32824,194.81815M251.2413,16.712852L251.2413,371.05674M194.4167,196.35542L402.77356,483.16866"/>
+    <path fill="black" d="M251.24082,16.036156L308.09785,196.09234L495.97823,195.05775L343.57406,304.66969L402.82414,482.09902L251.35462,371.19911L251.12333,17.218868"/>
+</g>
+	
+<g id="s" transform="scale(0.472) translate(272 170)">
+    <path d="M251.24082,16.036156L307.95737,196.48105L497.09706,194.66118L343.01014,304.36235L403.18833,483.68252L251.24082,371.03668L99.293295,483.68252L159.4715,304.36235L5.3845769,194.66117L194.52426,196.48105L251.24082,16.036156zM5.5468156,194.77939L343.01669,304.36021M307.92135,196.27899L99.678654,483.25326M159.4435,304.29471L496.32824,194.81815M251.2413,16.712852L251.2413,371.05674M194.4167,196.35542L402.77356,483.16866"/>
+</g>
+
+<g id="bizarreRow">
+	<use xlink:href="#s" x="90" fill="white"/>
+	<use xlink:href="#s" x="420" fill="white"/>
+	<use xlink:href="#sRightBlack" x="750"/>
+	<use xlink:href="#s" x="1080"/>
+	<use xlink:href="#s" x="1420"/>
+	<use xlink:href="#sLeftBlack" x="1750"/>
+	<use xlink:href="#s" x="2080" fill="white"/>
+	<use xlink:href="#s" x="2410" fill="white"/>
+</g>
+
+	<!-- Flag of France -->
+	<rect width="1000" height="2100" fill="#0055A4"/>
+	<rect width="1000" height="2100" x="1000" fill="#FFF"/>
+	<rect width="1000" height="2100" x="2000" fill="#EF4135"/>
+	
+<use xlink:href="#bizarreRow" y="-30" />
+<use xlink:href="#bizarreRow" y="316" />
+<use xlink:href="#bizarreRow" y="662" />
+<use xlink:href="#bizarreRow" y="1008" />
+<use xlink:href="#bizarreRow" y="1354" />
+<use xlink:href="#bizarreRow" y="1700" />
+	
+</svg>

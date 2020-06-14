@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    height="2000"
+    width="2000"
+    version="1.1"
+    viewBox="0 0 2000 2000"
+>
+    <!-- background: "#5f8dd3" -->
+    <!-- between star tesselation: "#3771c8" -->
+    <!-- stars tesselation: "#afc6e9" -->
+    <!-- stars: "#fc0" -->
+    <g id="star" transform="translate(1000, 1000) scale(30, 30)">
+        <path
+            d="
+                M 0.5773502691722515 0
+                L 0.8660254037844387 0.5
+                L 0.2886751345861258 0.5
+                L 0 1
+                L -0.28867513458612565 0.5
+                L -0.8660254037844385 0.5
+                L -0.5773502691722515 0
+                L -0.866025403784439 -0.5
+                L -0.28867513458612604 -0.5
+                L 0 -1
+                L 0.2886751345861258 -0.5
+                L 0.8660254037844388 -0.5
+            "
+        />
+    </g>
+    <g id="tessel">
+        <path
+            d="
+                M 0 -1
+                L 0.8660254037844387 -2.5
+                L 0.5773502691722515 -3
+                L -0.5773502691722515 -3
+                L -0.8660254037844387 -2.5
+            "
+        />
+    </g>
+    <g id="tessel30" transform="translate(1000, 1000) scale(30, 30) rotate(60)"><use xlink:href="#tessel" /></g>
+    <g id="tessel90" transform="translate(1000, 1000) scale(30, 30)"><use xlink:href="#tessel" /></g>
+    <g id="tessel150" transform="translate(1000, 1000) scale(30, 30) rotate(300)"><use xlink:href="#tessel" /></g>
+    <g id="tessel210" transform="translate(1000, 1000) scale(30, 30) rotate(240)"><use xlink:href="#tessel" /></g>
+    <g id="tessel270" transform="translate(1000, 1000) scale(30, 30) rotate(180)"><use xlink:href="#tessel" /></g>
+    <g id="tessel330" transform="translate(1000, 1000) scale(30, 30) rotate(120)"><use xlink:href="#tessel" />"</g>
+
+    <g id="outwardTessel">
+        <path
+            d="
+                M 0.8660254037844387 0.5
+                L 0.5773502691722515 0
+                L 0.8660254037844388 -0.5
+                L 2.6 -0.5
+                L 2.3 0
+                L 2.6 0.5 
+            "
+        />
+    </g>
+    <g id="outwardTessel0" transform="translate(1000, 1000) scale(30, 30)"><use xlink:href="#outwardTessel" /></g>
+    <g id="outwardTessel60" transform="translate(1000, 1000) scale(30, 30) rotate(300)"><use xlink:href="#outwardTessel" /></g>
+    <g id="outwardTessel120" transform="translate(1000, 1000) scale(30, 30) rotate(240)"><use xlink:href="#outwardTessel" /></g>
+    <g id="outwardTessel180" transform="translate(1000, 1000) scale(30, 30) rotate(180)"><use xlink:href="#outwardTessel" /></g>
+    <g id="outwardTessel240" transform="translate(1000, 1000) scale(30, 30) rotate(120)"><use xlink:href="#outwardTessel" /></g>
+    <g id="outwardTessel300" transform="translate(1000, 1000) scale(30, 30) rotate(60)"><use xlink:href="#outwardTessel" /></g>
+
+    <rect
+        height="2000"
+        width="2000"
+        fill="#5f8dd3"
+    />
+
+    <use xlink:href="#star" fill="#afc6e9" />
+
+    <g id="firstTesselCircle" fill="#3771c8">
+        <use xlink:href="#tessel30" />
+        <use xlink:href="#tessel90" />
+        <use xlink:href="#tessel150" />
+        <use xlink:href="#tessel210" />
+        <use xlink:href="#tessel270" />
+        <use xlink:href="#tessel330" />
+    </g>
+
+    <g id="firstCircle" fill="#afc6e9">
+        <use xlink:href="#star" x="-26" y="-105" />
+        <use xlink:href="#star" x="-78" y="-75" />
+        <use xlink:href="#star" x="-104" y="-30" />
+        <use xlink:href="#star" x="-26" y="105" />
+        <use xlink:href="#star" x="-78" y="75" />
+        <use xlink:href="#star" x="-104" y="30" />
+
+        <use xlink:href="#star" x="26" y="-105" />
+        <use xlink:href="#star" x="78" y="-75" />
+        <use xlink:href="#star" x="104" y="-30" />
+        <use xlink:href="#star" x="26" y="105" />
+        <use xlink:href="#star" x="78" y="75" />
+        <use xlink:href="#star" x="104" y="30" />
+    </g>
+    <g id="secondTessel" fill="#3771c8">
+        <use xlink:href="#outwardTessel0" x="-208" y="0" />
+        <use xlink:href="#tessel30" x="78" y="-75" />
+        <use xlink:href="#tessel30" x="104" y="-30" />
+        <use xlink:href="#outwardTessel60" x="-104" y="180" />
+        <use xlink:href="#tessel90" x="-26" y="-105" />
+        <use xlink:href="#tessel90" x="26" y="-105" />
+        <use xlink:href="#outwardTessel120" x="104" y="180" />
+        <use xlink:href="#tessel150" x="-78" y="-75" />
+        <use xlink:href="#tessel150" x="-104" y="-30" />
+        <use xlink:href="#outwardTessel180" x="208" y="0" />
+        <use xlink:href="#tessel210" x="-78" y="75" />
+        <use xlink:href="#tessel210" x="-104" y="30" />
+        <use xlink:href="#outwardTessel240" x="104" y="-180" />
+        <use xlink:href="#tessel270" x="-26" y="105" />
+        <use xlink:href="#tessel270" x="26" y="105" />
+        <use xlink:href="#outwardTessel300" x="-104" y="-180" />
+        <use xlink:href="#tessel330" x="78" y="75" />
+        <use xlink:href="#tessel330" x="104" y="30" />
+    </g>
+    <g id="secondCircle" fill="#afc6e9">
+        <use xlink:href="#star" x="208" y="0" fill="#fc0" />
+        <use xlink:href="#star" x="208" y="60" />
+        <use xlink:href="#star" x="182" y="105" fill="#fc0" />
+        <use xlink:href="#star" x="156" y="150" />
+        <use xlink:href="#star" x="104" y="180" fill="#fc0" />
+        <use xlink:href="#star" x="52" y="210" />
+        <use xlink:href="#star" x="0" y="210" fill="#fc0" />
+        <use xlink:href="#star" x="-208" y="0" fill="#fc0" />
+        <use xlink:href="#star" x="-208" y="60" />
+        <use xlink:href="#star" x="-182" y="105" fill="#fc0" />
+        <use xlink:href="#star" x="-156" y="150" />
+        <use xlink:href="#star" x="-104" y="180" fill="#fc0" />
+        <use xlink:href="#star" x="-52" y="210" />
+        <use xlink:href="#star" x="-0" y="210" fill="#fc0" />
+        <use xlink:href="#star" x="208" y="-60" />
+        <use xlink:href="#star" x="182" y="-105" fill="#fc0" />
+        <use xlink:href="#star" x="156" y="-150" />
+        <use xlink:href="#star" x="104" y="-180" fill="#fc0" />
+        <use xlink:href="#star" x="52" y="-210" />
+        <use xlink:href="#star" x="0" y="-210" fill="#fc0" />
+        <use xlink:href="#star" x="-208" y="-60" />
+        <use xlink:href="#star" x="-182" y="-105" fill="#fc0" />
+        <use xlink:href="#star" x="-156" y="-150" />
+        <use xlink:href="#star" x="-104" y="-180" fill="#fc0" />
+        <use xlink:href="#star" x="-52" y="-210" />
+        <use xlink:href="#star" x="-0" y="-210" fill="#fc0" />
+    </g>
+    <g id="thirdTessel" fill="#3771c8">
+        <use xlink:href="#outwardTessel0" x="-312" y="30" />
+        <use xlink:href="#outwardTessel0" x="-312" y="-30" />
+        <use xlink:href="#tessel30" x="208" y="-60" />
+        <use xlink:href="#tessel30" x="182" y="-105" />
+        <use xlink:href="#tessel30" x="156" y="-150" />
+        <use xlink:href="#outwardTessel60" x="-182" y="255" />
+        <use xlink:href="#outwardTessel60" x="-130" y="285" />
+        <use xlink:href="#tessel90" x="-52" y="-210" />
+        <use xlink:href="#tessel90" x="0" y="-210" />
+        <use xlink:href="#tessel90" x="52" y="-210" />
+        <use xlink:href="#outwardTessel120" x="182" y="255" />
+        <use xlink:href="#outwardTessel120" x="130" y="285" />
+        <use xlink:href="#tessel150" x="-208" y="-60" />
+        <use xlink:href="#tessel150" x="-182" y="-105" />
+        <use xlink:href="#tessel150" x="-156" y="-150" />
+        <use xlink:href="#outwardTessel180" x="312" y="30" />
+        <use xlink:href="#outwardTessel180" x="312" y="-30" />
+        <use xlink:href="#tessel210" x="-208" y="60" />
+        <use xlink:href="#tessel210" x="-182" y="105" />
+        <use xlink:href="#tessel210" x="-156" y="150" />
+        <use xlink:href="#outwardTessel240" x="182" y="-255" />
+        <use xlink:href="#outwardTessel240" x="130" y="-285" />
+        <use xlink:href="#tessel270" x="-52" y="210" />
+        <use xlink:href="#tessel270" x="0" y="210" />
+        <use xlink:href="#tessel270" x="52" y="210" />
+        <use xlink:href="#outwardTessel300" x="-182" y="-255" />
+        <use xlink:href="#outwardTessel300" x="-130" y="-285" />
+        <use xlink:href="#tessel330" x="208" y="60" />
+        <use xlink:href="#tessel330" x="182" y="105" />
+        <use xlink:href="#tessel330" x="156" y="150" />
+    </g>
+    <g id="thirdCircle" fill="#afc6e9">
+        <use xlink:href="#star" x="312" y="30" />
+        <use xlink:href="#star" x="312" y="90" />
+        <use xlink:href="#star" x="286" y="135" />
+        <use xlink:href="#star" x="260" y="180" />
+        <use xlink:href="#star" x="234" y="225" />
+        <use xlink:href="#star" x="182" y="255" />
+        <use xlink:href="#star" x="130" y="285" />
+        <use xlink:href="#star" x="78" y="315" />
+        <use xlink:href="#star" x="26" y="315" />
+        <use xlink:href="#star" x="312" y="-30" />
+        <use xlink:href="#star" x="312" y="-90" />
+        <use xlink:href="#star" x="286" y="-135" />
+        <use xlink:href="#star" x="260" y="-180" />
+        <use xlink:href="#star" x="234" y="-225" />
+        <use xlink:href="#star" x="182" y="-255" />
+        <use xlink:href="#star" x="130" y="-285" />
+        <use xlink:href="#star" x="78" y="-315" />
+        <use xlink:href="#star" x="26" y="-315" />
+
+        <use xlink:href="#star" x="-312" y="30" />
+        <use xlink:href="#star" x="-312" y="90" />
+        <use xlink:href="#star" x="-286" y="135" />
+        <use xlink:href="#star" x="-260" y="180" />
+        <use xlink:href="#star" x="-234" y="225" />
+        <use xlink:href="#star" x="-182" y="255" />
+        <use xlink:href="#star" x="-130" y="285" />
+        <use xlink:href="#star" x="-78" y="315" />
+        <use xlink:href="#star" x="-26" y="315" />
+        <use xlink:href="#star" x="-312" y="-30" />
+        <use xlink:href="#star" x="-312" y="-90" />
+        <use xlink:href="#star" x="-286" y="-135" />
+        <use xlink:href="#star" x="-260" y="-180" />
+        <use xlink:href="#star" x="-234" y="-225" />
+        <use xlink:href="#star" x="-182" y="-255" />
+        <use xlink:href="#star" x="-130" y="-285" />
+        <use xlink:href="#star" x="-78" y="-315" />
+        <use xlink:href="#star" x="-26" y="-315" />
+    </g>
+    <g id="fourthTessel" fill="#3771c8">
+        <use xlink:href="#outwardTessel0" x="-416" y="-60" />
+        <use xlink:href="#outwardTessel0" x="-416" y="0" />
+        <use xlink:href="#outwardTessel0" x="-416" y="60" />
+        <use xlink:href="#tessel30" x="234" y="-225" />
+        <use xlink:href="#tessel30" x="260" y="-180" />
+        <use xlink:href="#tessel30" x="286" y="-135" />
+        <use xlink:href="#tessel30" x="312" y="-90" />
+        <use xlink:href="#outwardTessel60" x="-260" y="330" />
+        <use xlink:href="#outwardTessel60" x="-208" y="360" />
+        <use xlink:href="#outwardTessel60" x="-156" y="390" />
+        <use xlink:href="#tessel90" x="-78" y="-315" />
+        <use xlink:href="#tessel90" x="-26" y="-315" />
+        <use xlink:href="#tessel90" x="26" y="-315" />
+        <use xlink:href="#tessel90" x="78" y="-315" />
+        <use xlink:href="#outwardTessel120" x="260" y="330" />
+        <use xlink:href="#outwardTessel120" x="208" y="360" />
+        <use xlink:href="#outwardTessel120" x="156" y="390" />
+        <use xlink:href="#tessel150" x="-234" y="-225" />
+        <use xlink:href="#tessel150" x="-260" y="-180" />
+        <use xlink:href="#tessel150" x="-286" y="-135" />
+        <use xlink:href="#tessel150" x="-312" y="-90" />
+        <use xlink:href="#outwardTessel180" x="416" y="-60" />
+        <use xlink:href="#outwardTessel180" x="416" y="0" />
+        <use xlink:href="#outwardTessel180" x="416" y="60" />
+        <use xlink:href="#tessel210" x="-234" y="225" />
+        <use xlink:href="#tessel210" x="-260" y="180" />
+        <use xlink:href="#tessel210" x="-286" y="135" />
+        <use xlink:href="#tessel210" x="-312" y="90" />
+        <use xlink:href="#outwardTessel240" x="260" y="-330" />
+        <use xlink:href="#outwardTessel240" x="208" y="-360" />
+        <use xlink:href="#outwardTessel240" x="156" y="-390" />
+        <use xlink:href="#tessel270" x="-78" y="315" />
+        <use xlink:href="#tessel270" x="-26" y="315" />
+        <use xlink:href="#tessel270" x="26" y="315" />
+        <use xlink:href="#tessel270" x="78" y="315" />
+        <use xlink:href="#outwardTessel300" x="-260" y="-330" />
+        <use xlink:href="#outwardTessel300" x="-208" y="-360" />
+        <use xlink:href="#outwardTessel300" x="-156" y="-390" />
+        <use xlink:href="#tessel330" x="234" y="225" />
+        <use xlink:href="#tessel330" x="260" y="180" />
+        <use xlink:href="#tessel330" x="286" y="135" />
+        <use xlink:href="#tessel330" x="312" y="90" />
+    </g>
+    <g id="fourthCircle" fill="#afc6e9">
+        <use xlink:href="#star" x="-52" y="-420" />
+        <use xlink:href="#star" x="-104" y="-420" />
+        <use xlink:href="#star" x="-156" y="-390" />
+        <use xlink:href="#star" x="-208" y="-360" />
+        <use xlink:href="#star" x="-260" y="-330" />
+        <use xlink:href="#star" x="-312" y="-300" />
+        <use xlink:href="#star" x="-338" y="-255" />
+        <use xlink:href="#star" x="-364" y="-210" />
+        <use xlink:href="#star" x="-390" y="-165" />
+        <use xlink:href="#star" x="-416" y="-120" />
+        <use xlink:href="#star" x="-416" y="-60" />
+        <use xlink:href="#star" x="-416" y="0" />
+        <use xlink:href="#star" x="0" y="-420" />
+        <use xlink:href="#star" x="52" y="-420" />
+        <use xlink:href="#star" x="104" y="-420" />
+        <use xlink:href="#star" x="156" y="-390" />
+        <use xlink:href="#star" x="208" y="-360" />
+        <use xlink:href="#star" x="260" y="-330" />
+        <use xlink:href="#star" x="312" y="-300" />
+        <use xlink:href="#star" x="338" y="-255" />
+        <use xlink:href="#star" x="364" y="-210" />
+        <use xlink:href="#star" x="390" y="-165" />
+        <use xlink:href="#star" x="416" y="-120" />
+        <use xlink:href="#star" x="416" y="-60" />
+        <use xlink:href="#star" x="416" y="0" />
+
+        <use xlink:href="#star" x="-52" y="420" />
+        <use xlink:href="#star" x="-104" y="420" />
+        <use xlink:href="#star" x="-156" y="390" />
+        <use xlink:href="#star" x="-208" y="360" />
+        <use xlink:href="#star" x="-260" y="330" />
+        <use xlink:href="#star" x="-312" y="300" />
+        <use xlink:href="#star" x="-338" y="255" />
+        <use xlink:href="#star" x="-364" y="210" />
+        <use xlink:href="#star" x="-390" y="165" />
+        <use xlink:href="#star" x="-416" y="120" />
+        <use xlink:href="#star" x="-416" y="60" />
+        <use xlink:href="#star" x="0" y="420" />
+        <use xlink:href="#star" x="52" y="420" />
+        <use xlink:href="#star" x="104" y="420" />
+        <use xlink:href="#star" x="156" y="390" />
+        <use xlink:href="#star" x="208" y="360" />
+        <use xlink:href="#star" x="260" y="330" />
+        <use xlink:href="#star" x="312" y="300" />
+        <use xlink:href="#star" x="338" y="255" />
+        <use xlink:href="#star" x="364" y="210" />
+        <use xlink:href="#star" x="390" y="165" />
+        <use xlink:href="#star" x="416" y="120" />
+        <use xlink:href="#star" x="416" y="60" />
+    </g>
+    <g id="fifthTessel" fill="#3771c8">
+        <use xlink:href="#outwardTessel0" x="-520" y="-90" />
+        <use xlink:href="#outwardTessel0" x="-520" y="-30" />
+        <use xlink:href="#outwardTessel0" x="-520" y="30" />
+        <use xlink:href="#outwardTessel0" x="-520" y="90" />
+        <use xlink:href="#tessel30" x="312" y="-300" />
+        <use xlink:href="#tessel30" x="338" y="-255" />
+        <use xlink:href="#tessel30" x="364" y="-210" />
+        <use xlink:href="#tessel30" x="390" y="-165" />
+        <use xlink:href="#tessel30" x="416" y="-120" />
+        <use xlink:href="#outwardTessel60" x="-338" y="405" />
+        <use xlink:href="#outwardTessel60" x="-286" y="435" />
+        <use xlink:href="#outwardTessel60" x="-234" y="465" />
+        <use xlink:href="#outwardTessel60" x="-182" y="495" />
+        <use xlink:href="#tessel90" x="-104" y="-420" />
+        <use xlink:href="#tessel90" x="-52" y="-420" />
+        <use xlink:href="#tessel90" x="0" y="-420" />
+        <use xlink:href="#tessel90" x="52" y="-420" />
+        <use xlink:href="#tessel90" x="104" y="-420" />
+        <use xlink:href="#outwardTessel120" x="338" y="405" />
+        <use xlink:href="#outwardTessel120" x="286" y="435" />
+        <use xlink:href="#outwardTessel120" x="234" y="465" />
+        <use xlink:href="#outwardTessel120" x="182" y="495" />
+        <use xlink:href="#tessel150" x="-312" y="-300" />
+        <use xlink:href="#tessel150" x="-338" y="-255" />
+        <use xlink:href="#tessel150" x="-364" y="-210" />
+        <use xlink:href="#tessel150" x="-390" y="-165" />
+        <use xlink:href="#tessel150" x="-416" y="-120" />
+        <use xlink:href="#outwardTessel180" x="520" y="-90" />
+        <use xlink:href="#outwardTessel180" x="520" y="-30" />
+        <use xlink:href="#outwardTessel180" x="520" y="30" />
+        <use xlink:href="#outwardTessel180" x="520" y="90" />
+        <use xlink:href="#tessel210" x="-312" y="300" />
+        <use xlink:href="#tessel210" x="-338" y="255" />
+        <use xlink:href="#tessel210" x="-364" y="210" />
+        <use xlink:href="#tessel210" x="-390" y="165" />
+        <use xlink:href="#tessel210" x="-416" y="120" />
+        <use xlink:href="#outwardTessel240" x="338" y="-405" />
+        <use xlink:href="#outwardTessel240" x="286" y="-435" />
+        <use xlink:href="#outwardTessel240" x="234" y="-465" />
+        <use xlink:href="#outwardTessel240" x="182" y="-495" />
+        <use xlink:href="#tessel270" x="-104" y="420" />
+        <use xlink:href="#tessel270" x="-52" y="420" />
+        <use xlink:href="#tessel270" x="0" y="420" />
+        <use xlink:href="#tessel270" x="52" y="420" />
+        <use xlink:href="#tessel270" x="104" y="420" />
+        <use xlink:href="#outwardTessel300" x="-338" y="-405" />
+        <use xlink:href="#outwardTessel300" x="-286" y="-435" />
+        <use xlink:href="#outwardTessel300" x="-234" y="-465" />
+        <use xlink:href="#outwardTessel300" x="-182" y="-495" />
+        <use xlink:href="#tessel330" x="312" y="300" />
+        <use xlink:href="#tessel330" x="338" y="255" />
+        <use xlink:href="#tessel330" x="364" y="210" />
+        <use xlink:href="#tessel330" x="390" y="165" />
+        <use xlink:href="#tessel330" x="416" y="120" />
+    </g>
+    <g id="fifthCircle" fill="#afc6e9">
+        <use xlink:href="#star" x="26" y="-525" />
+        <use xlink:href="#star" x="78" y="-525" />
+        <use xlink:href="#star" x="130" y="-525" />
+        <use xlink:href="#star" x="182" y="-495" />
+        <use xlink:href="#star" x="234" y="-465" />
+        <use xlink:href="#star" x="286" y="-435" />
+        <use xlink:href="#star" x="338" y="-405" />
+        <use xlink:href="#star" x="390" y="-375" />
+        <use xlink:href="#star" x="416" y="-330" />
+        <use xlink:href="#star" x="442" y="-285" />
+        <use xlink:href="#star" x="468" y="-240" />
+        <use xlink:href="#star" x="494" y="-195" />
+        <use xlink:href="#star" x="520" y="-150" />
+        <use xlink:href="#star" x="520" y="-90" />
+        <use xlink:href="#star" x="520" y="-30" />
+        <use xlink:href="#star" x="-26" y="-525" />
+        <use xlink:href="#star" x="-78" y="-525" />
+        <use xlink:href="#star" x="-130" y="-525" />
+        <use xlink:href="#star" x="-182" y="-495" />
+        <use xlink:href="#star" x="-234" y="-465" />
+        <use xlink:href="#star" x="-286" y="-435" />
+        <use xlink:href="#star" x="-338" y="-405" />
+        <use xlink:href="#star" x="-390" y="-375" />
+        <use xlink:href="#star" x="-416" y="-330" />
+        <use xlink:href="#star" x="-442" y="-285" />
+        <use xlink:href="#star" x="-468" y="-240" />
+        <use xlink:href="#star" x="-494" y="-195" />
+        <use xlink:href="#star" x="-520" y="-150" />
+        <use xlink:href="#star" x="-520" y="-90" />
+        <use xlink:href="#star" x="-520" y="-30" />
+
+        <use xlink:href="#star" x="26" y="525" />
+        <use xlink:href="#star" x="78" y="525" />
+        <use xlink:href="#star" x="130" y="525" />
+        <use xlink:href="#star" x="182" y="495" />
+        <use xlink:href="#star" x="234" y="465" />
+        <use xlink:href="#star" x="286" y="435" />
+        <use xlink:href="#star" x="338" y="405" />
+        <use xlink:href="#star" x="390" y="375" />
+        <use xlink:href="#star" x="416" y="330" />
+        <use xlink:href="#star" x="442" y="285" />
+        <use xlink:href="#star" x="468" y="240" />
+        <use xlink:href="#star" x="494" y="195" />
+        <use xlink:href="#star" x="520" y="150" />
+        <use xlink:href="#star" x="520" y="90" />
+        <use xlink:href="#star" x="520" y="30" />
+        <use xlink:href="#star" x="-26" y="525" />
+        <use xlink:href="#star" x="-78" y="525" />
+        <use xlink:href="#star" x="-130" y="525" />
+        <use xlink:href="#star" x="-182" y="495" />
+        <use xlink:href="#star" x="-234" y="465" />
+        <use xlink:href="#star" x="-286" y="435" />
+        <use xlink:href="#star" x="-338" y="405" />
+        <use xlink:href="#star" x="-390" y="375" />
+        <use xlink:href="#star" x="-416" y="330" />
+        <use xlink:href="#star" x="-442" y="285" />
+        <use xlink:href="#star" x="-468" y="240" />
+        <use xlink:href="#star" x="-494" y="195" />
+        <use xlink:href="#star" x="-520" y="150" />
+        <use xlink:href="#star" x="-520" y="90" />
+        <use xlink:href="#star" x="-520" y="30" />
+    </g>
+</svg>

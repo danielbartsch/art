@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="800px"
+   height="800px"
+   viewBox="-50 -50 100 100"
+>
+   <rect height="100" width="100" x="-50" y="-50" fill="#111"/>
+   <g stroke-width="4.5" fill="none">
+        <path id="lowB" d="M12.5,25 l15,0 a13,10,0,1,0,-3,-28" stroke="rgb(0,255,255)"/>
+        <path id="dP" d="
+            M0,-25
+            c50,0,50,25,0,25
+            c-50,0,-50,25,0,25
+            m9,0
+            l3.5,0
+            l-25,-50
+            l3.5,0
+        " stroke="#111" stroke-width="20"/>
+        <path id="dP" d="
+            M0,-25
+            c50,0,50,25,0,25
+            c-50,0,-50,25,0,25
+            m9,0
+            l3.5,0
+            l-25,-50
+            l3.5,0
+        " stroke="rgb(55,255,225)"/>
+   </g>
+</svg>
