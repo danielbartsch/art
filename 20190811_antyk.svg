@@ -1,0 +1,12 @@
+<svg width="900" height="400" viewBox="0 0 90 40">
+    <rect fill="#000" width="90" height="40" />
+    <g stroke-width="1" stroke="#fff" fill="transparent" fill-rule="evenodd" transform="translate(7.5,6.5)">
+        <path id="a" transform="translate(0,0)" d="
+            M0,24 l12,0 l10,-20 l-12,0 l-2,4 l8,0 l-2,4 l-8,0z
+            m6,-4 l4,0 l2,-4 l-4,0z"/>
+        <path id="n" transform="translate(14.5,0)" d="M0,24 l10,-20 l10,0 l-7,14 a 3 3 0 0 0 0 2 l2,4 l-6,0 l-2,-4 l6,-12 l-2,0 l-8,16z"/>
+        <path id="t" transform="translate(32.8,0)" d="M10,0 l4,0 l-2,4 l4,0 l-2,4 l-4,0 l-6,12 l4,0 l2,-4 l2,4 l-2,4 l-8,0 l-2,-4 l6,-12 l-4,0 l2,-4 l4,0z"/>
+        <path id="y" transform="translate(49.2,0)" d="M0,24 l4,0 l10,-20 l-4,0 l-2,4, l-2,-4 l-4,0 l4,8z"/>
+        <path id="k" transform="translate(55.6,0)" d="M0,24 l4,0 l4,-8 l4,8 l4,0 l-4,-8 l2,-4 l2,0 l2,-4 l-4,0 l-2,4 l-2,0 l6,-12 l-4,0z"/>
+    </g>
+</svg>
