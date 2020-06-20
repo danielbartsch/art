@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	version="1.1" width="380px" height="300px" viewBox="-150 -25 420 275">
+	
+	<!-- Line-Width calculated 25px -->
+	<!-- Outline DDG -->
+	<!--<polyline points="0 0 0 250 125 125" fill="green" fill-rule="evenodd"/>-->
+	<!--<polyline points="125 250 125 0 250 125" fill="green" fill-rule="evenodd"/>-->
+	<!--<polyline points="285.355 125 360 50 375 50 375 0 250 125 375 250 375 150 350 150 350 190.5" fill="green" fill-rule="evenodd"/> -->
+	
+	
+	<!-- Stroke 1st D white -->
+	<polyline points="12.5,220 107.5,125 12.5,30 12.5,220 107.5,125" fill="none"  stroke-width="25px" stroke="black"/>
+	<!-- Stroke 1st D black -->
+	<!--<polyline points="12.5,220 107.5,125 12.5,30 12.5,220 107.5,125" fill="none"  stroke-width="24px" stroke="white"/>-->
+	
+	<!-- Stroke 2nd D white -->
+	<polyline points="137.5,220 232.5,125 137.5,30 137.5,220 232.5,125" fill="none"  stroke-width="25px" stroke="black"/>
+	<!-- Stroke 2nd D black -->
+	<!--<polyline points="137.5,220 232.5,125 137.5,30 137.5,220 232.5,125" fill="none"  stroke-width="24px" stroke="white"/>-->
+	
+	<!-- Stroke G white -->
+	<polyline points="-14.5 50.5 -14.5 30 -109.322 125 -14.5 220 -14.5 150" stroke-width="25px" stroke="black" fill="none"/>
+	<!-- Stroke G black -->
+	<!--<polyline points="362.5 50 362.5 30 267.678 125 362.5 220 362.5 150.5" stroke-width="24px" stroke="white" fill="none"/>-->
+</svg>
