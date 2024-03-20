@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="50 50 600 600">
+    <rect fill="#2A6F2A" width="600" height="600" />
+    <g transform="translate(-125,125)">
+        <path d="M 615 50 465 50 540 125" fill="#FFF" />
+        <path d="M 605 200 455 50 305 50 530 275" fill="#FFF" />
+        <path d="M 285 350 435 350 360 275" fill="#FFF" />
+        <path d="M 295 200 445 350 595 350 370 125" fill="#FFF" />
+    </g>
+</svg>
