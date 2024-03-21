@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200"
+	height="1200">
+	<rect height="750" width="750" x="225" y="225" fill="#BAF" stroke="#BAF" stroke-width="500"
+		stroke-linejoin="bevel" />
+	<g>
+		<path d="M 100 600
+	         L 239.61245, 426.44650
+			 L 288.25510, 209.08429
+			 L 510.99163, 210.02884
+			 L 711.26047, 112.53604
+			 L 849.39592, 287.26741
+			 L 1050.48443, 383.05813
+			 L 1000      , 600
+			 L 1050.48443, 816.94187
+			 L 849.39592, 912.73259
+			 L 711.26047,1087.46396
+			 L 510.99163, 989.97116
+			 L 288.25510, 990.91574
+			 L 239.61245, 773.55349z" stroke="black" fill="rgba(255,255,255,0.5)" />
+
+
+		<path d="M 100 600
+			 L 711.26047, 112.53604
+			 L 1050.48443, 816.94187
+			 L 288.25510, 990.91574
+			 L 288.25510, 209.08429
+			 L 1050.48443, 383.05813
+			 L 711.26047,1087.46396
+			 L 100 600" fill="rgba(255,255,255,0.5)" stroke-width="1" stroke="black" />
+		<circle cx="600" cy="600" r="346" fill="none" stroke="black" />
+		<circle cx="600" cy="600" r="400" fill="none" stroke="black" />
+		<circle cx="600" cy="600" r="500" fill="none" stroke="black" />
+	</g>
+</svg>
